@@ -1,1 +1,19 @@
-
+{
+  "name": "Color Changer",
+  "id": "color-changer",
+  "blocks": [
+    {
+      "opcode": "changeStageColor",
+      "blockType": "command",
+      "text": "Change stage color to [COLOR]",
+      "arguments": {
+        "COLOR": {
+          "type": "string",
+          "defaultValue": "red"
+        }
+      }
+    }
+  ],
+  "menus": {},
+  "url": "extension.js"
+}
